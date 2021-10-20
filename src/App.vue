@@ -17,6 +17,11 @@
 
 #nav {
   padding: 30px;
+      background-color: #ccc;
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    width: 100%;
 
   a {
     font-weight: bold;
