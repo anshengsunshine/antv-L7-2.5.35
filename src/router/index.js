@@ -19,6 +19,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "map_world_point" */ "../views/MapWorldPoint.vue"),
   },
+  {
+    path: "/map_world_marker",
+    name: "MapWorldMarker",
+    component: () =>
+      import(/* webpackChunkName: "map_world_marker" */ "../views/MapWorldMarker.vue"),
+  },
 ];
 
 const router = createRouter({

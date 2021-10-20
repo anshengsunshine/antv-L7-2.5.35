@@ -2,7 +2,8 @@
   <div id="nav">
     <router-link to="/">世界地图 + 鼠标交互（悬浮 + 点击）</router-link> |
     <router-link to="/about">第三方mapBox地图</router-link> |
-    <router-link to="/map_world_point">世界地图 + 涟漪散点</router-link>
+    <router-link to="/map_world_point">世界地图 + 涟漪散点</router-link>  |
+    <router-link to="/map_world_marker">世界地图 + 聚合散点</router-link>  |
   </div>
   <router-view />
 </template>
