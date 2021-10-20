@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <map-box-comp />
+    <world-comp />
   </div>
 </template>
 
