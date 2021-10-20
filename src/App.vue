@@ -1,7 +1,8 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">世界地图 + 鼠标交互（悬浮 + 点击）</router-link> |
+    <router-link to="/about">第三方mapBox地图</router-link> |
+    <router-link to="/map_world_point">世界地图 + 涟漪散点</router-link>
   </div>
   <router-view />
 </template>
@@ -17,11 +18,11 @@
 
 #nav {
   padding: 30px;
-      background-color: #ccc;
-    z-index: 99;
-    position: absolute;
-    top: 0;
-    width: 100%;
+  background-color: #ccc;
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  width: 100%;
 
   a {
     font-weight: bold;
